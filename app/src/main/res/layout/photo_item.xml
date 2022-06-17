@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:id="@+id/photoText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="mytext"
+        android:gravity="center"/>
+
+</FrameLayout>
